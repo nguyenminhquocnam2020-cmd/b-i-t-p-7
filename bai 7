@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Giới Thiệu Bản Thân - Bài tập 07</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .profile-card {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+        h1 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        h3 {
+            color: #343a40;
+            margin-top: 25px;
+        }
+        img.avatar {
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #007bff;
+            margin-top: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 10px 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        a.social-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #24292e;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        a.social-link:hover {
+            background-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- 1. Tiêu đề chính (Tên của bạn) -->
+        <h1>Nguyễn Văn A</h1>
+        <p><strong>Xin chào!</strong> Tôi là một lập trình viên Web tương lai. Rất vui được làm quen với bạn!</p>
+
+        <!-- 2. Ảnh đại diện -->
+        <h3>Ảnh đại diện</h3>
+        <img src="cat.jpg" alt="Ảnh đại diện" class="avatar" width="150" height="150">
+
+        <!-- 3. Danh sách sở thích -->
+        <h3>Sở thích cá nhân</h3>
+        <ul>
+            <li>Lập trình trang web HTML/CSS</li>
+            <li>Đọc sách công nghệ & phát triển bản thân</li>
+            <li>Nghe nhạc và chơi thể thao</li>
+            <li>Đi du lịch khám phá địa điểm mới</li>
+        </ul>
+
+        <!-- 4. Bảng thời khoá biểu -->
+        <h3>Thời khóa biểu học tập</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Thứ</th>
+                    <th>Buổi sáng</th>
+                    <th>Buổi chiều</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Thứ 2</td>
+                    <td>Lập trình Web cơ bản</td>
+                    <td>Tự học HTML/CSS</td>
+                </tr>
+                <tr>
+                    <td>Thứ 3</td>
+                    <td>Cơ sở dữ liệu</td>
+                    <td>Học Tiếng Anh</td>
+                </tr>
+                <tr>
+                    <td>Thứ 4</td>
+                    <td>Thực hành Lập trình Web</td>
+                    <td>Đá bóng</td>
+                </tr>
+                <tr>
+                    <td>Thứ 5</td>
+                    <td>Mạng máy tính</td>
+                    <td>Làm bài tập GitHub</td>
+                </tr>
+                <tr>
+                    <td>Thứ 6</td>
+                    <td>Kỹ năng mềm</td>
+                    <td>Nghỉ ngơi</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- 5. Liên kết tới trang mạng xã hội của bạn -->
+        <h3>Kết nối với tôi</h3>
+        <p>Bạn có thể ghé thăm trang cá nhân của tôi tại:</p>
+        <a href="https://facebook.com" target="_blank" class="social-link">Trang Facebook cá nhân</a>
+        <a href="https://github.com" target="_blank" class="social-link">Trang GitHub cá nhân</a>
+    </div>
+
+</body>
+</html>
